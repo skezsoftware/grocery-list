@@ -3,9 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
+
+    <style>
+        .firstHeading {
+            background-color: #AA6A6C;
+            color: white;
+        }
+
+        .titlesRest {
+            color: white;
+            background-color: #AA6A6C;
+        }
+    </style>
 </head>
 <body>
-    <h1>Grocery List</h1>
+    <header>
+        <h1>My Grocery List</h1>
+    </header>
+
+    <!-- Fridge -->
+<div class="firstHeading">
+  <h2>Refrigerator</h2>
+</div>
+    <!-- Drinks -->
+  <div class="refrigerator">
+    <div class="fridge">
+      <h3>Drinks</h3>
+      <ul>
+        <li>Pellegrino</li>
+      </ul>
+    </div>  
+
+    <!-- Meats -->
+    <div class="fridge">
+      <h3>Meats</h3>
+      <ol>
+        <li>Bacon/sausage</li>
+        <li>Chicken Thighs</li>
+        <li>Ground Beef</li>
+      </ol>
+    </div>
+    
+    <!-- Dairy -->
+    <div class="fridge">
+    <h3>Dairy</h3>
+      <ol>
+        <li>Parmigano Reggiano</li>
+        <li>Butter</li>
+        <li>Eggs</li>
+        <li>Milk</li>
+        <li>Yogurt</li>
+      </ol>
+    </div>
+
+     <!-- Sprouts image -->
+     <div class="fridge" id="sproutsfresh">
+        <img src="./assets/sprouts.jpeg" alt="insdie of sprouts" class="sproutsfresh">
+    </div>
+  </div>
+    <!-- Room Temperature-->
+
+<div class="secondPartJoin"></div>
+  <div class="titlesRest">
+    <h2>Room Temperature</h2>
+  </div>
+  <div class="titlesRest" style="margin-left: 70px;">
+    <h2>Frozen</h2>
+  </div>
+
+  <div id="secondrow">
+      <div class="room">
+        <h3>Fruits/veggies/other</h3>
+          <ol>
+            <li>Avocado</li>
+            <li>Sweet Potatoes</li>
+            <li>Papaya</li>
+            <li>Oranges</li>
+            <li>Dragonfruit</li>
+            <li>Honey</li>
+          </ol>
+      </div>
+
+    <!-- Frozen -->
+
+      <div class="room">
+        <h3>Frozen</h3>
+          <ol>
+            <li>Mixed Berries</li>
+            <li>Bone Marrow</li>
+          </ol>
+      </div>
+
+      <!-- Frozen image -->
+      <div class="room" id="sproutsfresh">
+        <img src="./assets/sproutsFrozen.jpeg" alt="sprouts frozen section" class="sproutsfresh">
+    </div>
+  </div>
+</div>
 </body>
 </html>
