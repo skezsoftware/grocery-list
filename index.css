@@ -1,79 +1,78 @@
 .fridge {
-    display: inline-block;
-    vertical-align: top;
-    width: 300px;
-    height: 200px;
-    border:1px solid white;
-    margin: 20px;
-    background-color: #67BF7F;
-    color: white;
-    font-size: 20px;
-    padding: 0px;
-    block-size: fit-content;
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  height: 200px;
+  border: 1px solid white;
+  margin: 20px;
+  background-color: #67bf7f;
+  color: white;
+  font-size: 20px;
+  padding: 0px;
+  block-size: fit-content;
 }
 
 .room {
-    display: inline-block;
-    vertical-align: top;
-    width: 300px;
-    height: 200px;
-    border:1px solid white;
-    margin: 20px;
-    background-color: #67BF7F;
-    color: white;
-    font-size: 20px;
-    padding: 0px;
-    block-size: fit-content;
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  height: 200px;
+  border: 1px solid white;
+  margin: 20px;
+  background-color: #67bf7f;
+  color: white;
+  font-size: 20px;
+  padding: 0px;
+  block-size: fit-content;
 }
 
 #secondrow {
-    text-align: left;
-    margin-top: 20px;
+  text-align: left;
+  margin-top: 20px;
 }
 
 .titlesRest {
-    display: inline-block;
-    margin: 10px;
-    border:1px solid white;
-    letter-spacing: 3px;
-    padding: 10px;
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid white;
+  letter-spacing: 3px;
+  padding: 10px;
 }
 
 h1 {
-    color: #4E63BF;
-    background-color: #BFA3AE;
+  color: #4e63bf;
+  background-color: #bfa3ae;
 }
 
 h3 {
-    text-align: center;
-    text-decoration: underline;
+  text-align: center;
+  text-decoration: underline;
 }
 
-
 .firstHeading {
-    display: inline-block;
-    margin: 10px;
-    border:1px solid white; 
-    padding: 10px;
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid white;
+  padding: 10px;
 }
 
 .secondPartJoin {
-    margin-top: -20px;
+  margin-top: -20px;
 }
 
 .sproutsfresh {
-    width: 350px;
-    height: 250px;
+  width: 350px;
+  height: 250px;
 }
 
 #sproutsfresh {
-    width: fit-content;
-    height: fit-content;
-    padding: 20px;
-    background-color: #826D6D;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  background-color: #826d6d;
 }
 
 body {
-    background-color: #BFB8A3;
-    letter-spacing: 3px;
+  background-color: #bfb8a3;
+  letter-spacing: 3px;
 }
